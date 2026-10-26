@@ -1,0 +1,184 @@
+{
+  "id": "outrunners-handbook",
+  "title": "Neon Odyssey - Outrunner's Handbook",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>A Module containing the material from the Neon Odyssey Outrunner's Handbook.</p>",
+  "authors": [
+    {
+      "name": "Alkahest",
+      "discord": ".alkahest",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.6",
+          "verified": "6.0.6"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "canUpload": true,
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.snLpwkIFJkGKTV1O",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.IGqWoWsyuXQSwQhv",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.u7WShfXAKOlb3WWl",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.BuHvV4cSExOPNq4M",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.t6BXDLqTRkCV8H7c",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.eTFIJEe5dCDO4Ob5",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.H29BwW9CF9dwF5BB",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.Z0eVXRmqF4m6n1MT",
+        "Compendium.outrunners-handbook.outrunners-handbook.JournalEntry.Ws72odjfIsbf2U7d.JournalEntryPage.VZ33av07vjYePUw0"
+      ]
+    }
+  },
+  "packs": [
+    {
+      "name": "outrunners-handbook",
+      "label": "Outrunner's Handbook",
+      "path": "packs/outrunners-handbook",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "character-classes",
+      "label": "Character Classes",
+      "path": "packs/character-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "character-origins",
+      "label": "Character Origins",
+      "path": "packs/character-origins",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "active-effects",
+      "label": "Active Effects",
+      "path": "packs/active-effects",
+      "type": "ActiveEffect",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Neon Odyssey",
+      "sorting": "m",
+      "packs": [
+      ],
+      "folders": [
+	    {	
+          "name": "Outrunner's Handbook",
+          "sorting": "m",
+          "color": "#f7f529",
+          "packs": [
+            "outrunners-handbook",
+            "character-classes",
+            "character-origins",
+            "feats",
+            "spells",
+            "equipment",
+		    "roll-tables",
+            "actors",
+		    "active-effects"
+          ]
+		}
+	  ]
+    }
+  ],
+  "scripts": [
+    "scripts/neon-odyssey-script.js"
+  ]
+}
